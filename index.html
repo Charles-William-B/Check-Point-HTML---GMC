@@ -3,68 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="asset/images/logo 4K.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Barre de navigation -->
-    <center> 
-        <table> 
-        <tr> 
-            <td> 
-                <span> <img src="asset/images/logo 4K.png" height="50" width="50"/></span></td>
-                <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-            <td>   
-            <span> <b>Home</b> &ensp;&ensp;&ensp;&ensp; </span>
-                <span> <b>About</b> &ensp;&ensp;&ensp;&ensp; </span>
-                <span> <b>Work</b>  &ensp;&ensp;&ensp;&ensp; </span>
-                <span> <b>Resume</b>  &ensp;&ensp;&ensp;&ensp; </span>
-                <span> <b>Contact</b>  &ensp;&ensp;&ensp;&ensp; </span></td>
-            <td right style="text-align: right;"> 
 
-                <form action="#" method="get">
-                    <input type="search" name="q" placeholder="Rechercher...">
-                    <button type="submit">Recherche</button> 
-                  </form> 
-            </td>
-        </tr>
-    </table>
-</center>
+    <header>
+        <div class="navbar">
 
+            <ul>
+                <li><img src="asset/images/logo 4K.png" height="50" width="50"/></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Work</li>
+                <li>Resume</li>
+                <li>Contact</li>
+                <li>
+                    <form action="#" method="get">
+                        <input type="search" name="q" placeholder="Rechercher...">
+                        <button type="submit">Recherche</button> 
+                      </form>
+                </li>
+            </ul>
+         </div>
 
+    </header>
+     
 <!-- contenu général du site incluant tous les elements -->
 
-<br/><br/>
-<center> <h2> WELCOME</h2></center>
+<main>
 
-<div> <center> <img src="asset/images/image principale.jpg" height="800" width="1000"/></center>
-    <br/> 
-    <center>
-        <table> 
-            <tr> 
-                <td> 
-                    <span> <img src="asset/images/MASK AFRO2.png" height="126" width="70"/></span></td>
-                    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                <td>   
-                    <span> <img src="asset/images/MASK AFRO3.png" height="126" width="70"/></span></td>
-                    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-               </td>
-                <td>
-                    <span> <img src="asset/images/MASK AFRO4.png" height="126" width="70"/></span></td>
-                    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                </td>
-            </tr>
-        </table>    
-    </center>
+    <div class="section1">
 
-<!-- Mise en place des sections -->
+        <h2> WELCOME</h2>
 
-<center> 
-    <table> 
-    <tr>
-        <td>
-            <section1> 
-                <h1> About</h1>
-                    
+        <img src="asset/images/image principale.jpg" height="800" width="1000"/>
+
+        <ul>
+            <li>
+                <img src="asset/images/MASK AFRO2.png" height="126" width="70"/>
+            </li>
+
+            <li>
+                <img src="asset/images/MASK AFRO3.png" height="126" width="70"/>
+            </li>
+
+            <li>
+                <img src="asset/images/MASK AFRO4.png" height="126" width="70"/>
+            </li>
+        </ul>
+
+    </div> 
+
+    <!-- section about -->
+
+    <div class="about">
+
+        <h1> About</h1>
+
+        <p>
             <br/>
             MUNTU COMPANY est une jeune START-UP créée en 2020 au Cameroun en Afrique centrale. 
             <br/>
@@ -83,57 +82,51 @@
             l'avenir numérique de notre nation et du continent tout en célébrant 
             <br/>
             la diversité culturelle qui nous définit.
-                </section1>
-            </td>
-        </tr>
-    </table>
-    
+        </p>
 
-    <table>
-    <tr>
-        <td>
-            <SECTION2>
-                <h1> Work</h1>
-                <p> 
-                    <h3>Nos Services </h3>
-                <br/>  
-            L'ensemble des services fournis par Muntu Company sont repartis en 3 grands départements comme 
-            suit :  
-            <br/>
-            <b> 1- Muntu Digitech </b> 
-            <br/>
-            Le bras technologique de Muntu Company, est le département spécialisé dans la création et 
-            <br/>
-            le développement de solutions digitales. Fusionnant esthétique, modernité et innovation afin 
-            <br/>
-            de fournir le meilleur rendement à nos clients.Du concept initial à la mise en œuvre, notre 
-            <br/>
-            équipe de concepteurs et développeurs talentueux donnent vie à des interfaces visuelles 
-            <br/>
-            captivantes, reflétant la personnalité unique de chaque projet en adoptant les dernières 
-            <br/>
-            technologies de la programmation back-end à la conception front-end, pour assurer une 
-            <br/>
-            performance optimale. Nous comprenons que chaque projet est ancré dans un contexte 
-            <br/>
-            culturel et commercial spécifique. C'est pourquoi nous nous engageons à intégrer ces éléments 
-            <br/>
-            dans notre processus de conception, créant ainsi des solutions numériques qui transcendent 
-            <br/>
-            les frontières et résonnent avec votre public cible.  
-            <br/>
-                </p>
-            </SECTION2>
-        </td>
-    </tr>
-    </table>
+    </div>
 
+    <!-- section work -->
 
-    <table>
-        <tr>
-            <td>
-                <SECTION3>
-                    <h1> Resume</h1>
+    <div class="work">
+
+        <h1> Work</h1>
+        <p> 
+            <h3>Nos Services </h3>
+        <br/>  
+    L'ensemble des services fournis par Muntu Company sont repartis en 3 grands départements comme 
+    suit :  
+    <br/>
+    <b> 1- Muntu Digitech </b> 
+    <br/>
+    Le bras technologique de Muntu Company, est le département spécialisé dans la création et 
+    <br/>
+    le développement de solutions digitales. Fusionnant esthétique, modernité et innovation afin 
+    <br/>
+    de fournir le meilleur rendement à nos clients.Du concept initial à la mise en œuvre, notre 
+    <br/>
+    équipe de concepteurs et développeurs talentueux donnent vie à des interfaces visuelles 
+    <br/>
+    captivantes, reflétant la personnalité unique de chaque projet en adoptant les dernières 
+    <br/>
+    technologies de la programmation back-end à la conception front-end, pour assurer une 
+    <br/>
+    performance optimale. Nous comprenons que chaque projet est ancré dans un contexte 
+    <br/>
+    culturel et commercial spécifique. C'est pourquoi nous nous engageons à intégrer ces éléments 
+    <br/>
+    dans notre processus de conception, créant ainsi des solutions numériques qui transcendent 
+    <br/>
+    les frontières et résonnent avec votre public cible.  
+    <br/>
+        </p>
+    </div>
+
+    <!-- section Resume -->
+
+    <div class="resume">
+
+        <h1> Resume</h1>
                     <p> 
                         <h3> All in one way </h3>
                     <br/>  
@@ -166,91 +159,79 @@
                 cupiditate at harum tempora voluptate perferendis eligendi!
                 <br/>
                     </p>
-                </SECTION3>
-            </td>
-        </tr>
-        </table>
+    </div>
 
+    <!-- section contact -->
 
-        <table>
-            <tr>
-                <td>
-                    <SECTION4>
-                        <h1> CONTACTS</h1>
-                        <p> 
-                            <h3>SUIVEZ-NOUS VIA: </h3>
-                            <br/>  
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores rerum, ipsum vero deutch vqri kab liss
-                            <br/>
-                            reiciendis fugit cum pariatur dicta sapiente animi, autem ipsam unde facere ipsum vero deutch vqri kab liss 
-                            <br/> 
-                            cupiditate at harum tempora voluptate perferendis eligendi!facere ipsum vero deutch vqri kab liss garter fe
-                        </p>
-                    </SECTION4>
-                </td>
-            </tr>
-            </table>
-            <table>
-                
-                <td> <img src="asset/images/appel.png" height="40" width="40"/></td>
-               <td>  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                <td> <img src="asset/images/facebook.png" height="40" width="40"/></td>
-                <td>  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                <td> <img src="asset/images/instagram.png" height="40" width="40"/></td>
-            </table>
-            <br/>
+    <div class="contact">
 
-            Inscrivez-vous à notre news letter pour ne rien rater de nos activités
-            <br/>
-            <br/>
-            <form>
-                <label for="surname"> Prenom </label>
-                <input type="surname" id="surmane"/>
-                <br/> <br/>
-                <label for="name"> Nom</label>
-                <input type="name" id="mane"/>
-                <br/> <br/>
-                <label for="email"> Email</label>
-                <input type="email" id="email"/>
-                <br/> <br/>
-                <label for="password"> Mot de passe</label> 
-                <input type="password" id="password"/> 
-                <button type="submit"> Sourmettre </button>
-                <br/><br/> 
-              </form>
-              <br/> 
-              <br/>
-              <video src="asset/vidéos/vidéo1.mp4" height="50%" width="50%" controls loop></video>
-</center>      
+        <SECTION4>
+            <h1> CONTACTS</h1>
+            <p> 
+                <h3>SUIVEZ-NOUS VIA: </h3>
+                <br/>  
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores rerum, ipsum vero deutch vqri kab liss
+                <br/>
+                reiciendis fugit cum pariatur dicta sapiente animi, autem ipsam unde facere ipsum vero deutch vqri kab liss 
+                <br/> 
+                cupiditate at harum tempora voluptate perferendis eligendi!facere ipsum vero deutch vqri kab liss garter fe
+            </p>
 
+    </div>
+
+    <!-- infos du site -->
+
+    <div class="formulaire">
+
+        <ul>
+            <li> <img src="asset/images/appel.png" height="40" width="40"/></li>
+            <li> <img src="asset/images/facebook.png" height="40" width="40"/></li>
+            <li> <img src="asset/images/instagram.png" height="40" width="40"/></li>
+        </ul>
+
+        <h4> Inscrivez-vous à notre news letter pour ne rien rater de nos activités</h4>
+     
+        <form>
+            <label for="surname"> Prenom </label>
+            <input type="surname" id="surmane"/>
+            <br/> <br/>
+            <label for="name"> Nom</label>
+            <input type="name" id="mane"/>
+            <br/> <br/>
+            <label for="email"> Email</label>
+            <input type="email" id="email"/>
+            <br/> <br/>
+            <label for="password"> Mot de passe</label> 
+            <input type="password" id="password"/> 
+            <button type="submit"> Sourmettre </button>
+            <br/><br/> 
+          </form>
+
+          <div id="video">
+
+            <video src="asset/vidéos/vidéo1.mp4" height="50%" width="50%" controls loop></video>
+
+          </div>
+
+    </div>
+
+</main>
 
 <!-- pied page -->
 
-        <br/><br/>
-      <center> ----------<><><><><>---------- </center>
-        <footer>
-            <br/>
-            <br/>
-            <br/>
-            <center> 
-               <b>
-                <table> 
-                    <tr>
-                        <td> <img src="asset/images/appel.png" height="20" width="20"/></td>
-                        <td> +237 699 00 00 00</td>
-                        <td> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                        <td> <img src="asset/images/placeholder.png" height="20" width="20"/></td>
-                        <td> Yaoundé Cameroun </td>
-                        <td> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                        <td> <img src="asset/images/e-mail.png" height="20" width="20"/></td>
-                        <td> moncheckpointhtml@gmail.com</td>
-                    </tr>
-                </table>
-               </b>
-            </center>
-            <center> <p> <b>Copyright&copy;</b> 2025 Tous droits réservés.</p> </center>
-        </footer>
+      <footer>
 
-        <!-- dans le but de creer quelque d'assez ressemblant au modele de base fourni plusieurs entorse au reglement html ont ete necessaire -->
+        ----------<><><><><>----------
+
+        <ul>
+            <li><img src="asset/images/appel.png" height="20" width="20"/> +237 699 00 00 00</li>
+            <li><img src="asset/images/placeholder.png" height="20" width="20"/> Yaoundé Cameroun</li>
+            <li><img src="asset/images/e-mail.png" height="20" width="20"/> moncheckpointhtml@gmail.com</li>
+        </ul>
+            
+          <p> <b>Copyright&copy;</b> 2025 Tous droits réservés.</p>
+
+</footer>
+
 </body>
 </html>
